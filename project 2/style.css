@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  margin: 9px;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #00C853;
+}
+.header {
+  text-align: center;
+  padding: 10px;
+
+}
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+form div {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.checking label,
+.choices label {
+  display: block;
+font-weight: normal;
+align-items: center;
+gap: 8px;
+margin-bottom: 5px;
+}
+.checking input,
+.choices input {
+  width: auto;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #45a082;
+}

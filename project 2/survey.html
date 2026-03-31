@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+  <h1>My Survey Form</h1>
+</div>
+<form action="forms">
+<div class="name">
+  <label for="Name">Name:</label>
+  <input type="text" id="Name" name="Name" placeholder="Enter your name">
+</div>
+<div class="email">
+  <label for="Email">Email:</label>
+  <input type="email" id="Email" name="Email" placeholder="Enter your email">
+</div>
+<div class="age">
+  <label for="Age">Age:</label>
+  <input type="number" id="Age" name="Age" placeholder="Enter your age">
+</div>
+<div class="Options">
+  <label for="Options">Which option describes you best?</label>
+  <select id="Options" name="Options">
+    <option value="student">Student</option>
+    <option value="Intern">Intern</option>
+    <option value="Professional">Professional</option>
+    <option value="Other">Other</option>
+  </select>
+</div>
+<div class="checking">
+  <label for="checking">Do you recommend this with your friends?</label>
+   <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">Yes
+            </label>
+             <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">No
+            </label>
+             <label for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed">Maybe
+            </label>
+</div>
+<div class="choices">
+ <label>Languages and Frameworks known
+                <small>(Check all that apply)</small>
+            </label>
+    <label class="inp 1">
+    <input type="checkbox" value="c">C
+    </label>
+    <label class="inp 2">
+    <input type="checkbox" value="c++">C++
+    </label>
+    <label class="inp 3">
+    <input type="checkbox" value="java">Java
+    </label>
+    <label class="inp 4">
+    <input type="checkbox" value="python">Python
+    </label>
+    <label class="inp 5">
+    <input type="checkbox" value="Javascrip">JavaScript
+    </label>
+    <label class="inp 6">
+    <input type="checkbox" value="react">React
+    </label>
+    <label class="inp 7">
+    <input type="checkbox" value="angular">Angular
+    </label>
+    <label class="inp 8">
+    <input type="checkbox" value="django">Django
+    </label>
+    <label class="inp 9">
+    <input type="checkbox" value="spring">Spring
+    </label>
+</div>
+<div class="comments">
+  <label for="Comments">Comments:</label>
+  <textarea id="Comments" name="Comments" placeholder="Enter your comments"></textarea>
+</div>
+<div class="submit">
+  <button type="submit">Submit</button>
+</div>
+</form>
+
+</body>
+</html>
