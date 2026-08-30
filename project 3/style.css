@@ -22,7 +22,6 @@ body {
 .sidebar.active {
   left: 0;
 }
-
 #menuBtn {
   position: fixed;
   top: 20px;
